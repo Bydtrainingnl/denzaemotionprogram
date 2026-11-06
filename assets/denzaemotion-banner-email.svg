@@ -1,0 +1,43 @@
+<svg width="600" height="220" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DENZA E-MOTION PROGRAM banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="600" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eef2f7"/>
+      <stop offset="1" stop-color="#dfe7f0"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#edf1f5"/>
+      <stop offset="1" stop-color="#bcc4ce"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b2e7b"/>
+      <stop offset="1" stop-color="#071f57"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9fbff"/>
+      <stop offset="0.2" stop-color="#e7eefc"/>
+      <stop offset="0.6" stop-color="#a7bfe6"/>
+      <stop offset="1" stop-color="#0b3d9c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="220" fill="url(#bg)"/>
+
+  <path d="M420 220L600 220L600 0C565 28 532 56 500 80C472 101 443 119 418 130C382 145 350 154 307 163L420 220Z" fill="url(#wave)" opacity="0.9"/>
+  <path d="M440 220L600 220L600 110C574 121 548 132 520 146C491 162 465 175 440 190V220Z" fill="#dfeaf8" opacity="0.8"/>
+
+  <g transform="translate(30 28)">
+    <circle cx="70" cy="82" r="72" fill="url(#glass)"/>
+    <circle cx="70" cy="82" r="64" fill="#edf1f5"/>
+    <path d="M43 52L88 29L98 43L79 68L43 52Z" fill="url(#blue)"/>
+    <path d="M62 100L35 81L18 105L54 133L62 100Z" fill="url(#blue)"/>
+    <path d="M45 50L90 89L96 99L81 120L29 87L45 50Z" fill="url(#blue)"/>
+    <path d="M46 55L89 88L79 121L35 90L46 55Z" fill="url(#glass)" opacity="0.75"/>
+    <path d="M69 48L73 124L85 124L85 61L69 48Z" fill="#edf3f9" opacity="0.9"/>
+  </g>
+
+  <g>
+    <text x="190" y="95" fill="#0b2e7b" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="74" letter-spacing="-4">DENZA</text>
+    <text x="194" y="150" fill="#0b2e7b" font-family="Arial, Helvetica, sans-serif" font-weight="300" font-size="30" letter-spacing="2">E-MOTION PROGRAM</text>
+  </g>
+</svg>
