@@ -1,0 +1,50 @@
+<svg width="1600" height="600" viewBox="0 0 1600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6ECF1"/>
+      <stop offset="1" stop-color="#D7DFEB"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F9FAFB"/>
+      <stop offset="0.45" stop-color="#E8EBEF"/>
+      <stop offset="1" stop-color="#B9C1C9"/>
+    </linearGradient>
+    <linearGradient id="blueFill" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F2E82"/>
+      <stop offset="1" stop-color="#0A1E5C"/>
+    </linearGradient>
+    <linearGradient id="blueWave" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F3F8FF"/>
+      <stop offset="0.15" stop-color="#DDEAFF"/>
+      <stop offset="0.55" stop-color="#9DB7DE"/>
+      <stop offset="1" stop-color="#0F3C9A"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#7A8698" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="600" fill="url(#bg)"/>
+
+  <g opacity="0.92">
+    <path d="M1260 600L1600 600L1600 0C1520 110 1455 200 1388 275C1327 345 1262 390 1175 420C1106 443 1032 465 930 485L1260 600Z" fill="url(#blueWave)"/>
+    <path d="M1110 600L1600 600L1600 290C1510 320 1438 350 1360 385C1276 421 1203 450 1110 495V600Z" fill="#DDE6F3" opacity="0.65"/>
+  </g>
+
+  <g transform="translate(140 120)" filter="url(#shadow)">
+    <circle cx="160" cy="190" r="160" fill="url(#glass)"/>
+    <circle cx="160" cy="190" r="148" fill="#EEF2F7"/>
+    <path d="M84 112L197 52L240 98L154 174L84 112Z" fill="#0B2E7B"/>
+    <path d="M136 250L72 193L30 261L120 322L136 250Z" fill="#0B2E7B"/>
+    <path d="M100 88L235 195L240 214L170 281L40 182L100 88Z" fill="url(#blueFill)"/>
+    <path d="M115 96L230 195L175 291L68 185L115 96Z" fill="url(#glass)" opacity="0.7"/>
+    <path d="M165 92L173 293L200 294L199 117L165 92Z" fill="#E7EDF7" opacity="0.9"/>
+    <path d="M111 227L160 177L225 242L236 255L252 277L176 344L77 267L111 227Z" fill="#0B2E7B"/>
+    <path d="M132 139L88 191L88 236L163 160L132 139Z" fill="#F5F8FF" opacity="0.85"/>
+  </g>
+
+  <g>
+    <text x="500" y="258" fill="#0B2E7B" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="200" letter-spacing="-10">DENZA</text>
+    <text x="505" y="380" fill="#0B2E7B" font-family="Arial, Helvetica, sans-serif" font-weight="300" font-size="84" letter-spacing="4">E-MOTION PROGRAM</text>
+  </g>
+</svg>
